@@ -1,0 +1,12 @@
+{
+    "aws_region": "us-east-1",
+    "aws_id": "ID_OWNER",
+    "pgp_key": "keybase:name_profile",
+    "policy_arn": "arn:aws:iam::aws:policy/AmazonS3FullAccess",
+    "name_group": "AdministradoresS3Full",
+    "ssh_public_key": "ssh-rsa public-key-generated",
+    "force_destroy": true,
+    "password_reset_required": false,
+    "upload_iam_user_ssh_key": true
+
+}
