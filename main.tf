@@ -12,6 +12,13 @@ module "iam_user" {
   upload_iam_user_ssh_key = var.upload_iam_user_ssh_key
 
   ssh_public_key = var.ssh_public_key
+
+  tags = merge({
+      Name = "${local.name_prefix}-USER-S3"
+    },
+    local.default_tags,
+    )
+
 }
 
 module "group_user" {

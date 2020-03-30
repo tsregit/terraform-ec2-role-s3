@@ -1,20 +1,13 @@
 variable "name" {
-  type        = string
-}
-
-variable "environment" {
-  type = string
-  default = "DEV"
+  type  = string
 }
 
 variable "create_iam_user_login_profile" {
-  description = "Whether to create IAM user login profile"
   type        = bool
   default     = true
 }
 
 variable "create_iam_access_key" {
-  description = "Whether to create IAM access key"
   type        = bool
   default     = true
 }
@@ -62,4 +55,8 @@ variable "ssh_public_key" {
 variable "permissions_boundary" {
   type        = string
   default     = ""
+}
+
+variable "tags" {
+  type = map(string)
 }

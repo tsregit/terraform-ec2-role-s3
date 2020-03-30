@@ -7,6 +7,6 @@
     "ssh_public_key": "ssh-rsa public-key-generated",
     "force_destroy": true,
     "password_reset_required": false,
-    "upload_iam_user_ssh_key": true
-
+    "upload_iam_user_ssh_key": true,
+    "environment": "DEV"
 }

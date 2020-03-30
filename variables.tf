@@ -33,3 +33,7 @@ variable "password_reset_required" {
 variable "upload_iam_user_ssh_key" {
   type = bool
 }
+
+variable "environment" {
+  type = string
+}
