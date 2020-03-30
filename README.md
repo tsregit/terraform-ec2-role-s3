@@ -5,7 +5,11 @@ En este ejemplo se muestra como crear:
 1. **Un usuario IAM** asociado a un **Grupo** y este a su vez asociado a una **Politica** para tener acceso a **S3**
 2. **Una instancia EC2** 
 
-Para sociar el grupo a la politica es mediante el ARN de la politica que se genera.
+Para sociar el grupo a la politica es mediante el ARN de la politica previamente generada.
+
+```
+arn:aws:iam::aws:policy/AmazonS3FullAccess
+```
 
 Para ejecutar esta plantilla se debe agregar los valores al **tfvars-dev.json**
 ```
