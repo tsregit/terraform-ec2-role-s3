@@ -1,9 +1,8 @@
-# Terraform - EC2 - IAM - ROLE
+# Terraform - IAM - ROLE
 
 En este ejemplo se muestra como crear:
 
 1. **Un usuario IAM** asociado a un **Grupo** y este a su vez asociado a una **Politica** para tener acceso a **S3**
-2. **Una instancia EC2** 
 
 Para sociar el grupo a la politica es mediante el ARN de la politica previamente generada.
 
